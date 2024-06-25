@@ -1,0 +1,23 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "author": "Ali Asad",
+  "license": "MIT",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "npx tsc",
+    "dev": "nodemon src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.8",
+    "@types/node-telegram-bot-api": "^0.64.7",
+    "dotenv": "^16.4.5",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
